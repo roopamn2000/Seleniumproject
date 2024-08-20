@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-08-20T18:35:11 IST" name="Default suite" finished-at="2024-08-20T18:35:24 IST" duration-ms="13388">
+    <groups>
+    </groups>
+    <test started-at="2024-08-20T18:35:11 IST" name="Default test" finished-at="2024-08-20T18:35:24 IST" duration-ms="13388">
+      <class name="testcases.SignIn">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.SignIn@1c1bbc4e]" started-at="2024-08-20T18:35:11 IST" name="setUp" finished-at="2024-08-20T18:35:18 IST" duration-ms="6954" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Sigin(java.lang.String,java.lang.String)[pri:0, instance:testcases.SignIn@1c1bbc4e]" started-at="2024-08-20T18:35:20 IST" name="Sigin" data-provider="bvtdata" finished-at="2024-08-20T18:35:24 IST" duration-ms="3916" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[roopamn2000@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Roopa@9876]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Sigin -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testcases.SignIn@1c1bbc4e]" started-at="2024-08-20T18:35:24 IST" name="teardown" finished-at="2024-08-20T18:35:24 IST" duration-ms="420" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testcases.SignIn -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
